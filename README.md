@@ -19,7 +19,7 @@ SO THAT user can gauge progress compared to peers
 - THEN user can save their initials and user score
 
 Click the link to take the Quiz!
-
+https://mollygove.github.io/WK4HW-Quiz/
 
 SCRREEN SHOT OF PAGE HERE!
 
@@ -38,3 +38,7 @@ https://www.w3schools.com/js/default.asp
 https://www.w3schools.com/js/js_quiz.asp
 
 ## URL Links 
+
+https://mollygove.github.io/WK4HW-Quiz/
+
+https://github.com/mollygove/WK4HW-Quiz
