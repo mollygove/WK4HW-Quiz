@@ -1,6 +1,6 @@
 
 html {
-    font-size: 63;
+    font-size: 15px;
 }
 
 nav {
@@ -59,7 +59,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.high-score {
+.viewhigh-score {
     text-align: start;
 }
 
@@ -80,8 +80,6 @@ h2 {
 .startButton {
     text-align: center;
 }
-
-/* created elements */
 
 .sectionEl {
     display: block;
@@ -138,7 +136,7 @@ h2 {
     text-decoration: none;
 }
 
-.highScore {
+.viewhigh-score {
     color: blue;
     font-size: 4rem;
     margin-bottom: 2rem;
