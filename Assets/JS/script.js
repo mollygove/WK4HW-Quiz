@@ -226,6 +226,6 @@ function enterHiSc() {
 
         highScore.push(highScores);
 
-        localStorage.setItem("highScores", JSON.stringify(highScore));
+        localStorage.setItem("scores", JSON.stringify(highScore));
     });
 };
