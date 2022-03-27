@@ -18,7 +18,7 @@ function renderScore () {
 function init() {
     var highScores = JSON.parse(localStorage.getItem("highScores"));
     if (highScores !== null) {
-        highScoresList = highScores;
+        highScoreList = highScores;
     }
     console.log(highScoresList);
     renderScore();

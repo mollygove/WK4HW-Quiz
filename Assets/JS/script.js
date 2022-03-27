@@ -142,8 +142,7 @@ function loadQuestions() {
     b1El.textContent = `${questions[questionIndex].q1}`;
     b2El.textContent = `${questions[questionIndex].q2}`;
     b3El.textContent = `${questions[questionIndex].q3}`;
-    b4El.textContent = `${questions[questionIndex].q4}`;
-};
+    };
 
 //Validate the users choices
 var wrongEl = document.querySelector("#wrong");
@@ -182,7 +181,7 @@ quizEl.addEventListener("click", function (event) {
     }
 });
 
-//Just to see if I could do it, made the elements in JS for the enter high score part.
+//Elements in JS for the enter high score section.
 var mainEl = document.querySelector('main');
 var sectionEl = document.createElement("section");
 var h1El = document.createElement("h1");
@@ -214,18 +213,18 @@ function enterHiSc() {
     labelEl.textContent = "Please enter your initials: ";
     buttonEl.textContent = "Post";
 
-    //Save values to array
-    buttonEl.addEventListener("click", function (event) {
-        event.preventDefault();
-        var highScore =JSON.parse(localStorage.getItem("highScores")) || [];
+	//Save values to array
+	buttonEl.addEventListener("click", function (event) {
+		event.preventDefault();
+		var highScore =JSON.parse(localStorage.getItem("highScores")) || [];
 
-        var highScores = {
-            name: inputEl.value.trim(),
-            score: userScore
-        };
+		var highScores = {
+			name: inputEl.value.trim(),
+			score: userScore
+		};
 
-        highScore.push(highScores);
+		highScore.push(highScores);
 
-        localStorage.setItem("scores", JSON.stringify(highScore));
-    });
+		localStorage.setItem("highScores", JSON.stringify(highScore));
+	});
 };
