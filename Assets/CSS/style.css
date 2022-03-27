@@ -1,0 +1,149 @@
+
+html {
+    font-size: 63;
+}
+
+nav {
+    margin: 32px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    padding: 16px;
+}
+
+li {
+    flex: 1 0 50%;
+    font-size: 48px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+section {
+    justify-content: center;
+    text-align: center;
+}
+
+.intro h1 {
+    margin-top: 32px;
+    font-size: 64px;
+}
+
+section p {
+    width: 50rem;
+    font-size: 20px;
+    margin: 16px auto;
+}
+
+button {
+    padding: 3rem;
+    font-size: 32px;
+    border-radius: 64px;
+    width: 20rem;
+    height: 64px;
+    margin: 16px;
+    padding: 0px;
+    text-align: center;
+}
+button:hover {
+    background-color: ghostwhite;
+    border-color: blue;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.high-score {
+    text-align: start;
+}
+
+.timer {
+    text-align: end;
+}
+
+.intro {
+    display: block;
+}
+
+.quiz {
+    display: none;
+    margin: 0 auto;
+    max-width: 40rem;
+}
+
+.startButton {
+    text-align: center;
+}
+
+/* created elements */
+
+.sectionEl {
+    display: block;
+}
+
+.h1El {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.h2El {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.labelEl {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.inputEl {
+    padding: .6rem;
+}
+
+.sectionEl .buttonEl {
+    padding: 0;
+    font-size: 1.7rem;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.sectionEl .buttonEl {
+    padding: 0;
+    font-size: 1.7rem;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.wrong {
+    width: 20rem;
+    margin: 1rem auto;
+    font-size: 2.2rem;
+    color: blue;
+}
+
+.linkBack {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.highScore {
+    color: blue;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.nameScore {
+    font-size: 2rem;
+}
