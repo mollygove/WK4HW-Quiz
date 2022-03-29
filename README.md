@@ -21,11 +21,8 @@ SO THAT user can gauge progress compared to peers
 Click the link to take the Quiz!
 https://mollygove.github.io/WK4HW-Quiz/
 
-SCRREEN SHOT OF PAGE HERE!
 
 ## Credits
-
-List your collaborators, with links to their GitHub profiles.
 
 Noteable Third-party sites used for attribution:
 

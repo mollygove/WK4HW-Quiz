@@ -136,7 +136,7 @@ function startQuiz() {
     loadQuestions();
 };
 
-//Load the questions based on the index
+//Load the questions based on index
 function loadQuestions() {
     questionEl.textContent = questions[questionIndex].question;
     b1El.textContent = `${questions[questionIndex].q1}`;
@@ -144,7 +144,7 @@ function loadQuestions() {
     b3El.textContent = `${questions[questionIndex].q3}`;
     };
 
-//Validate the users choices
+//Validate users choices
 var wrongEl = document.querySelector("#wrong");
 quizEl.addEventListener("click", function (event) {
     var element = event.target;
@@ -154,13 +154,13 @@ quizEl.addEventListener("click", function (event) {
             secondsLeft = secondsLeft + 5;
             alert("Correct!");
             wrongEl.textContent = " ";
-            //Run through the questions
+            //Run through questions
             var qLength = questions.length - 1;
             if (questionIndex < qLength) {
                 questionIndex++;
                 loadQuestions();
             } else {
-                //Ran through all the questions - finish
+                //Ran through all questions - finish
                 alert("All Done!");
                 userScore = secondsLeft;
                 clearInterval(timeInt);
@@ -181,7 +181,7 @@ quizEl.addEventListener("click", function (event) {
     }
 });
 
-//Elements in JS for the enter high score section.
+//Elements in JS for enter score section.
 var mainEl = document.querySelector('main');
 var sectionEl = document.createElement("section");
 var h1El = document.createElement("h1");
