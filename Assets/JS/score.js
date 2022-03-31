@@ -3,7 +3,7 @@ var highScoresList = [];
 
 console.log(highScoresList);
 
-function renderScore() {
+function renderScore(highScoresList) {
   olEl.innerHTML = "";
 
   for (var i = 0; i < highScoresList.length; i++) {
@@ -17,11 +17,11 @@ function renderScore() {
 
 function init() {
   var highScores = JSON.parse(localStorage.getItem("highScores"));
-  if (highScores !== null) {
-    highScoreList = highScores;
-  }
-  console.log(highScoresList);
-  renderScore();
+//   if (highScores !== null) {
+//     highScoreList = highScores;
+//   }
+  console.log(highScores);
+  renderScore(highScores);
 }
 
 init();

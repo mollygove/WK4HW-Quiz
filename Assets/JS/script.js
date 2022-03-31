@@ -115,7 +115,7 @@ var questions = [
 
 //Initial variables
 var userScore;
-var secondsLeft = 90;
+var secondsLeft = 10;
 var questionIndex = 0;
 var timeInt;
 
@@ -221,10 +221,12 @@ function enterHiSc() {
   h2El.textContent = `Your score is ${userScore}.`;
   labelEl.textContent = "Please enter your initials: ";
   buttonEl.textContent = "Post";
+  buttonEl.setAttribute("href","./viewhigh-score.html")
 
   //Save values to array
   buttonEl.addEventListener("click", function (event) {
     event.preventDefault();
+    document.location.href = "./viewhigh-score.html"
     var highScore = JSON.parse(localStorage.getItem("highScores")) || [];
 
     var highScores = {
